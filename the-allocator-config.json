@@ -1,0 +1,15 @@
+{
+  "riskThreshold": 0,
+  "title1": "DIS Manager",
+  "title2": "FFA Asset Management",
+  "api": {
+    "ServerVersion": "http://localhost:65433/ServerVersion.json",
+    "EADS": "http://localhost:65433/eads.json",
+    "EadsName": "Marketflow",
+    "EPDS": "http://localhost:65433/fetchBbg.json",
+    "EpdsName": "Bloomberg",
+    "excel": "http://localhost:65433/export2excel.json",
+    "RemoteDownload": "http://localhost:65433/loadFromServer.json",
+    "RemoteSave": "http://localhost:65433/saveOnServer.json"
+  }
+}
