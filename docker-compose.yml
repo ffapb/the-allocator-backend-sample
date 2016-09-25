@@ -1,0 +1,16 @@
+version: '2'
+services:
+  frontend:
+    image: shadiakiki1986/the-allocator
+    volumes:
+    - ./the-allocator-config.json:/usr/share/nginx/html/the-allocator-config.json
+    ports:
+    - "6543:80"
+    depends_on:
+    - backend
+  backend:
+    image: nginx:alpine
+    volumes:
+    - ./www:/usr/share/nginx/html
+    ports:
+    - "6544:80"
