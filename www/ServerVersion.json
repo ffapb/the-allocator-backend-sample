@@ -1,0 +1,5 @@
+{ "appVersion" : "abc123",
+  "appDate"    : "2000-01-01",
+  "dataVersion": "def345",
+  "dataDate"   : "2005-01-01"
+}
