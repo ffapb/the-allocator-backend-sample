@@ -1,4 +1,9 @@
 {
+  "FIDLHKI LX EQUITY": {
+    "px": 150,
+    "pxDate": "2015-01-01",
+    "currency": "USD"
+  },
   "AMZN US Equity": {
     "px": 100,
     "pxDate": "2015-01-01",
