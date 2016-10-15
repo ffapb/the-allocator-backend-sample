@@ -3,8 +3,11 @@ services:
   frontend:
     image: shadiakiki1986/the-allocator
     volumes:
-    - ./the-allocator-config.json:/usr/share/nginx/html/the-allocator-config.json:ro
-    - ../the-allocator/www:/usr/share/nginx/html/:ro # for development testing
+    # this doesnt work since docker cannot mount a single file
+    # - ./the-allocator-config.json:/usr/share/the-allocator-config.json:ro
+    # this works
+    - ./config/:/usr/share/the-allocator-config:ro
+    - ../the-allocator/:/usr/share/the-allocator/:ro # for development testing
     ports:
     - "6543:80"
     depends_on:
