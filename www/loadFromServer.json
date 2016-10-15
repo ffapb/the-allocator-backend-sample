@@ -1,0 +1,146 @@
+{
+    "strategies": {
+        "Conservative": {
+            "allocations": {
+                "7": {
+                    "id": "7",
+                    "allocation": 0.62
+                },
+                "883-1": {
+                    "id": "883-1",
+                    "allocation": 8.855
+                },
+                "US IGLO": {
+                    "id": "US IGLO",
+                    "allocation": 4
+                }
+            },
+            "name": "Conservative",
+            "performance": {
+                "2012": 2.58,
+                "2013": 2.43,
+                "2014": 2.27,
+                "2015": -0.11,
+                "YTD": -2.32
+            }
+        }
+    },
+    "accounts": {
+        "DIS107": {
+            "id": "ABC123",
+            "name": "Jack Sparrow",
+            "strategy": "Conservative",
+            "inception": "2010-10-03",
+            "initialInvestment": 1000,
+            "rm": "FFA FFA",
+            "navMonthStart": 2000,
+            "navYearStart": 2300,
+            "fromMF": true,
+            "cash": 100,
+            "allocations": {
+                "7": {
+                    "id": "7",
+                    "numShares": 237.52,
+                    "avgCost": 18.23,
+                    "nameMF": "ASEAN FUND",
+                    "classMF": "EQUITY FUNDS",
+                    "CRS_DAT": "2016-03-21",
+                    "CRS_TIT": 20.12,
+                    "currency": "USD",
+                    "rate2usd": 1,
+                    "class": "EQUITY FUNDS",
+                    "name": "ASEAN FUND",
+                    "isin": "FIDAAAU LX EQUITY"
+                },
+                "US GOVT": {
+                    "id": "US GOVT",
+                    "numShares": 259,
+                    "avgCost": 8.4633333333333,
+                    "nameMF": "ISHARES TRUST",
+                    "classMF": "BOND FUNDS",
+                    "CRS_DAT": "2016-03-21",
+                    "CRS_TIT": 25.59,
+                    "currency": "USD",
+                    "rate2usd": 1,
+                    "class": "BOND FUNDS",
+                    "name": "ISHARES TRUST",
+                    "isin": "US46429B2676 Equity"
+                }
+            },
+            "currentDate": "2016-03-22",
+            "performance": [
+
+            ],
+            "mfSource": "Lebanon",
+            "feesMan": 5
+        }
+    },
+    "securities": {
+        "7": {
+            "id": "7",
+            "name": "ASEAN FUND",
+            "classManual": "EQUITY FUNDS",
+            "isin": "FIDAAAU LX EQUITY",
+            "pxDate": "latest",
+            "classOriginal": "EQUITY FUNDS"
+        },
+        "52": {
+            "id": "52",
+            "name": "FIDELITY GREATER CHINA FUND",
+            "pxDate": "latest",
+            "isin": "FIDLHKI LX EQUITY",
+            "classOriginal": "EQUITY FUNDS"
+        },
+        "CIT JBGBD1": {
+            "id": "CIT JBGBD1",
+            "name": "JABCAP GLOBAL BALANCED FUND LTD CLASS D1",
+            "pxDate": "latest",
+            "isin": "JABGLD1 KY EQUITY"
+        }
+    },
+    "prices": {
+        "7": {
+            "id": "7",
+            "history": {
+                "2016-03-21": {
+                    "pxDate": "2016-03-21",
+                    "px": 20.12,
+                    "currency": "USD",
+                    "source": "Price source"
+                }
+            }
+        },
+        "52": {
+            "id": "52",
+            "history": {
+                "2016-03-21": {
+                    "pxDate": "2016-03-21",
+                    "px": 163.4,
+                    "currency": "USD",
+                    "source": "Price source"
+                }
+            }
+        },
+        "CIT JBGBD1": {
+            "id": "CIT JBGBD1",
+            "history": {
+                "2016-03-15": {
+                    "pxDate": "2016-03-15",
+                    "px": 198.5,
+                    "currency": "USD",
+                    "source": "Price source"
+                }
+            }
+        }
+    },
+    "partialRedemptions": [
+
+    ],
+    "config": {
+        "riskThreshold": 0.5
+    },
+    "versioning": {
+      "dataVersion": "1234",
+      "dataDate": "2016-03-04"
+    }
+}
